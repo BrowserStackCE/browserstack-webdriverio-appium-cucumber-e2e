@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+/ios/logs
+/ios/local.log
+/ios/node_modules
+/android/logs
+/android/local.log
+/android/node_modules
