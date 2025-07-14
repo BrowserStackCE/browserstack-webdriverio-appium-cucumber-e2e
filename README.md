@@ -11,6 +11,10 @@ This repository includes a sample configuration file to run these on tests on Br
 
 Upload the `.apk` and `.ipa` files to [BrowserStack App Automate](https://www.browserstack.com/app-automate) and note the **app URL/hash**.
 
+APK path: ```android/app/WikipediaSample.apk```
+
+IPA path: ```ios/app/BStackSampleApp.ipa```
+
 ### Step 2: Update config
 
 Update the app hash in:
