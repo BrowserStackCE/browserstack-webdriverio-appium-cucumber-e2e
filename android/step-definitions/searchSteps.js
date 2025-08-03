@@ -1,20 +1,3 @@
-// import { Given, When, Then } from '@wdio/cucumber-framework';
-
-// Given('I try to search using Wikipedia App', async () => {
-//   const searchInit = await $('android=new UiSelector().resourceId("org.wikipedia.alpha:id/search_container")');
-//   await searchInit.click();
-// });
-
-// When('I search with keyword BrowserStack', async () => {
-//   const searchInput = await $('android=new UiSelector().resourceId("org.wikipedia.alpha:id/search_src_text")');
-//   await searchInput.setValue('BrowserStack');
-// });
-
-// Then('The search results should be listed', async () => {
-//   const results = await $$('android=new UiSelector().resourceId("org.wikipedia.alpha:id/page_list_item_title")');
-//   await expect(results.length).toBeGreaterThan(0);
-// });
-
 import { Given, When, Then } from '@wdio/cucumber-framework';
 
 

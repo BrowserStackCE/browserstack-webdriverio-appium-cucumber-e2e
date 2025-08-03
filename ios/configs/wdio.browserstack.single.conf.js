@@ -15,8 +15,8 @@ exports.config = {
     'appium:app': 'bs://<app_id>',
     'bstack:options': {
       projectName: 'WDIO App Automation Project IOS',
-      buildName: 'Public App Test iOS',
-      sessionName: 'Sample App - Public Test',
+      buildName: 'Single App Test iOS',
+      sessionName: 'Sample App - Single Test',
       debug: true,
       interactiveDebugging: true,
     }

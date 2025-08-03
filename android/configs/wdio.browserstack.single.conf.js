@@ -18,8 +18,8 @@ exports.config = {
     'bstack:options': {
       realMobile: true,
       projectName: 'WDIO App Automation Project',
-      buildName: 'Android Build - Public App Test',
-      sessionName: 'Search Wikipedia - Public Test Android',
+      buildName: 'Android Build - Single App Test',
+      sessionName: 'Search Wikipedia - Single Test Android',
       debug: true,
       interactiveDebugging: true,
       local: false

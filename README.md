@@ -11,9 +11,21 @@ This repository includes a sample configuration file to run these on tests on Br
 
 Upload the `.apk` and `.ipa` files to [BrowserStack App Automate](https://www.browserstack.com/app-automate) and note the **app URL/hash**.
 
-APK path: ```android/app/WikipediaSample.apk```
+You can upload your application on our platform using one of the below options:
 
-IPA path: ```ios/app/BStackSampleApp.ipa```
+1. You can upload an application on BrowserStack from the [BrowserStack App Automate Dashboard](https://www.browserstack.com/app-automate) directly using the upload app option at the top.
+
+2. You can also use the below API to upload an application: 
+curl -u "<username>:<access_key>" \
+-X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+-F "file=@/path/to/app/file/application-debug.ipa"
+
+Note: Please replace the username, access key, and path to the application. (Please don't remove the @ in the path)
+For reference: https://www.browserstack.com/docs/app-automate/api-reference/appium/apps#upload-an-app
+
+Sample APK path: ```android/app/WikipediaSample.apk```
+
+Sample IPA path: ```ios/app/BStackSampleApp.ipa```
 
 ### Step 2: Update config
 

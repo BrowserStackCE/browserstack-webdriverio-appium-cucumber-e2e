@@ -5,7 +5,7 @@
   "scripts": {
     "test": "npx wdio run wdio.conf.js",
     "test:local": "npx wdio run ./configs/wdio.browserstack.local.conf.js",
-    "test:public": "npx wdio run ./configs/wdio.browserstack.public.conf.js",
+    "test:single": "npx wdio run ./configs/wdio.browserstack.single.conf.js",
     "test:parallel": "npx wdio run ./configs/wdio.browserstack.parallel.conf.js"
   },
   "keywords": [],
