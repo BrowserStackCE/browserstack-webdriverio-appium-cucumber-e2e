@@ -11,14 +11,16 @@ This repository includes a sample configuration file to run these on tests on Br
 
 Upload the `.apk` and `.ipa` files to [BrowserStack App Automate](https://www.browserstack.com/app-automate) and note the **app URL/hash**.
 
-You can upload your application on our platform using one of the below options:
+You can upload your application on our platform using one of the following options:
 
 1. You can upload an application on BrowserStack from the [BrowserStack App Automate Dashboard](https://www.browserstack.com/app-automate) directly using the upload app option at the top.
 
-2. You can also use the below API to upload an application: 
+2. You can also use the below API to upload an application:  
+```bash
 curl -u "<username>:<access_key>" \
 -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
 -F "file=@/path/to/app/file/application-debug.ipa"
+```
 
 Note: Please replace the username, access key, and path to the application. (Please don't remove the @ in the path)
 For reference: https://www.browserstack.com/docs/app-automate/api-reference/appium/apps#upload-an-app
@@ -55,7 +57,7 @@ npm install
 npm run test:local
 
 # Run tests using public app URL
-npm run test:public
+npm run test:single
 
 # Run tests in parallel
 npm run test:parallel
@@ -68,7 +70,7 @@ npm run test:parallel
 npm run test:local
 
 # Run tests using public app URL
-npm run test:public
+npm run test:single
 
 # Run tests in parallel
 npm run test:parallel
