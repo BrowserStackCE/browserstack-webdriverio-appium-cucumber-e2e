@@ -3,8 +3,7 @@
 
 Welcome to BrowserStack WebdriverIO Cucumber Examples, a sample UI testing framework empowered with Appium, Webdriverio, Cucumber. Along with the framework the repository also contains test scripts written for BrowserStack Demo Application.
 
-This repository includes a sample configuration file to run these on tests on BrowserStack platforms including **browsers running on a remote selenium grid such as BrowserStack AppAutomate
-
+This repository includes a sample configuration setup to run tests on BrowserStack platforms, including mobile devices through App Automate.
 ## 🛠️ Setup
 
 ### Step 1: Upload your app to BrowserStack
