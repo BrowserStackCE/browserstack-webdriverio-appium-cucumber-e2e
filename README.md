@@ -1,4 +1,4 @@
-<h1 align="center">  <img src="https://avatars.githubusercontent.com/u/1119453?s=200&v=4" width="60" height="60" > <a href="https://github.com/BrowserStackCE/browserstack-webdriverio-appium-cucumber">BrowserStack Examples Appium WebdriverIO Cucumber</a>  <img src="http://v4.webdriver.io/images/webdriverio.png" width="60" height="60" ></h1>
+<h1 align="center">  <img src="https://www.browserstack.com/images/static/header-logo.jpg" height="40" > <a href="https://github.com/BrowserStackCE/browserstack-webdriverio-appium-cucumber">BrowserStack Examples Appium WebdriverIO Cucumber</a>  <img src="http://v4.webdriver.io/images/webdriverio.png" width="60" height="60" ></h1>
 
 
 Welcome to BrowserStack WebdriverIO Cucumber Examples, a sample UI testing framework empowered with Appium, Webdriverio, Cucumber. Along with the framework the repository also contains test scripts written for BrowserStack Demo Application.
